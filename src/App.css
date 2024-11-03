@@ -1,0 +1,29 @@
+/* Make the app container take up the full viewport height
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+  } */
+  
+  /* Main content area with sidebar and content area */
+  .main-content {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+  }
+  
+  /* Sidebar styling */
+  aside {
+    width: 500px;
+    overflow-y: auto;
+    border-right: 1px solid #ddd;
+    height: 100%;
+  }
+  
+  /* Content area styling */
+  .content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
