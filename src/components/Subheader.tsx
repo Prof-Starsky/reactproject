@@ -13,7 +13,7 @@ const Subheader: React.FC<SubheaderProps> = ({ title }) => {
     >
       <div className="d-flex align-items-center">
         <Card.Img
-          src="https://namelessrumia.heliohost.org/w/lib/exe/fetch.php?media=erk.png" // Path to the image in the public folder
+          src="vite.svg" // Path to the image in the public folder
           alt="React Logo"
           style={{
             width: "100px",
