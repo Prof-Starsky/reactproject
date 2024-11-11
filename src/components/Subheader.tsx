@@ -8,7 +8,7 @@ interface SubheaderProps {
 const Subheader = ({ title, children }: SubheaderProps) => {
   return (
     <Card
-      className="my-2"
+      className="m-3"
       style={{ maxWidth: "700px", height: "150px", color: "aqua" }}
     >
       <div className="d-flex align-items-center">

@@ -33,7 +33,7 @@ const AccordionItem = ({ title, content }: AccordionItemProps) => {
 const SidebarAccordion = () => {
   return (
     <Card
-      className="my-2"
+      className="m-3"
       style={{ maxWidth: "700px", height: "500px", color: "aqua" }}
     >
       <aside className="accordion bg-light p-3" id="sidebarAccordion">
@@ -47,13 +47,14 @@ const SidebarAccordion = () => {
         />
         <Card>
           <Card className="border rounded p-3">
-            stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff
-            stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff
-            stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff
-            stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff
-            stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff
-            stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff
-            stuff stuff stuff stuff stuff stuff
+            Stuff needed: <br></br>
+            Laptop <br></br>
+            VSCode Installed <br></br>
+            ES7+ React/Redux/React-Native snippets Extension added <br></br>
+            <br></br>
+            Recommended: <br></br>
+            Prettier - Code formatter Extension added<br></br>
+            Prior Knowledge of basic HTML and CSS <br></br>
           </Card>
         </Card>
       </aside>
