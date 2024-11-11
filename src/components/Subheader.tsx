@@ -3,9 +3,10 @@ import { Card } from "react-bootstrap";
 interface SubheaderProps {
   title: string;
   children: string;
+  image: string;
 }
 
-const Subheader = ({ title, children }: SubheaderProps) => {
+const Subheader = ({ title, children, image }: SubheaderProps) => {
   return (
     <Card
       className="m-3"
@@ -13,11 +14,11 @@ const Subheader = ({ title, children }: SubheaderProps) => {
     >
       <div className="d-flex align-items-center">
         <Card.Img
-          src="vite.svg" // Path to the image in the public folder
+          src={image} // Path to the image in the public folder
           alt="React Logo"
           style={{
-            width: "100px",
-            height: "100px",
+            width: "240px",
+            height: "120px",
             objectFit: "contain",
             margin: "10px",
             backgroundColor: "#f0f0f0",
