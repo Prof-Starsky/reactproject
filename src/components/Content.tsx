@@ -15,15 +15,15 @@ const Content: React.FC = () => {
       }}
     >
       <div className="p-3">
-        <Subheader title="Subheader" />
-        <Subheader title="Subheader" />
-        <Card>
-          <p className="mt-3">
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-            text text text text text text text text text text text text text
-          </p>
-        </Card>
+        <Subheader title="We'll begin with the History of React and other Web Development method!">
+          Subheader Content
+        </Subheader>
+        <Subheader title="Then we'll going into the theory behind how React works!">
+          Subheader Contest
+        </Subheader>
+        <Subheader title="Lastly, we'll learn how to make a website just like this from scratch!">
+          Stuff
+        </Subheader>
       </div>
     </Card>
   );

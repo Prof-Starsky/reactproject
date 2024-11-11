@@ -1,11 +1,12 @@
-import React from "react";
+import React, { Children } from "react";
 import { Card } from "react-bootstrap";
 
 interface SubheaderProps {
   title: string;
+  children: string;
 }
 
-const Subheader: React.FC<SubheaderProps> = ({ title }) => {
+const Subheader: React.FC<SubheaderProps> = ({ title, children }) => {
   return (
     <Card
       className="my-2"
@@ -26,7 +27,7 @@ const Subheader: React.FC<SubheaderProps> = ({ title }) => {
         />
         <Card.Body>
           <Card.Title>{title}</Card.Title>
-          <Card.Subtitle className="text-muted">Subheader</Card.Subtitle>
+          <Card.Subtitle className="text-muted">{children}</Card.Subtitle>
         </Card.Body>
       </div>
     </Card>

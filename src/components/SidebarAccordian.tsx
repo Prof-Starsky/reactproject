@@ -38,13 +38,24 @@ const SidebarAccordion: React.FC = () => {
     >
       <aside className="accordion bg-light p-3" id="sidebarAccordion">
         <AccordionItem
-          title="This is an accordian tab!"
+          title="We'll learn how to make Components like this"
           content="Content for Accordian 1"
         />
         <AccordionItem
-          title="This is also an accordian tab!"
-          content="Content for Accordian 2"
+          title="And like this, while keeping a nice format"
+          content="We'll also have the ability to put text inside these drop down accordian folders"
         />
+        <Card>
+          <Card className="border rounded p-3">
+            stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff
+            stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff
+            stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff
+            stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff
+            stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff
+            stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff
+            stuff stuff stuff stuff stuff stuff
+          </Card>
+        </Card>
       </aside>
     </Card>
   );

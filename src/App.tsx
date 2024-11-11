@@ -7,7 +7,7 @@ import "./App.css";
 const App: React.FC = () => {
   return (
     <div className="app-container">
-      <Header>Header</Header>
+      <Header>React Website Development Presentation!</Header>
       <div className="main-content">
         <SidebarAccordion></SidebarAccordion>
         <Content></Content>
