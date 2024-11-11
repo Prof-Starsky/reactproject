@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Card } from "react-bootstrap";
 
 interface AccordionItemProps {
@@ -6,7 +6,7 @@ interface AccordionItemProps {
   content: string;
 }
 
-const AccordionItem: React.FC<AccordionItemProps> = ({ title, content }) => {
+const AccordionItem = ({ title, content }: AccordionItemProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleAccordion = () => setIsOpen(!isOpen);
@@ -30,7 +30,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, content }) => {
   );
 };
 
-const SidebarAccordion: React.FC = () => {
+const SidebarAccordion = () => {
   return (
     <Card
       className="my-2"

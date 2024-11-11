@@ -5,7 +5,7 @@ interface SubheaderProps {
   children: string;
 }
 
-const Subheader: React.FC<SubheaderProps> = ({ title, children }) => {
+const Subheader = ({ title, children }: SubheaderProps) => {
   return (
     <Card
       className="my-2"

@@ -1,8 +1,7 @@
-import React from "react";
 import Subheader from "./Subheader";
 import { Card } from "react-bootstrap";
 
-const Content: React.FC = () => {
+const Content = () => {
   return (
     <Card
       className="my-2"
