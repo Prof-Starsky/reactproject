@@ -27,7 +27,7 @@ const Subheader = ({ title, children, image }: SubheaderProps) => {
         />
         <Card.Body>
           <Card.Title>{title}</Card.Title>
-          <Card.Subtitle className="text-muted">{children}</Card.Subtitle>
+          <Card.Subtitle className="subheader-card">{children}</Card.Subtitle>
         </Card.Body>
       </div>
     </Card>
