@@ -19,11 +19,91 @@
     border-right: 1px solid #ddd;
     height: 100%;
   }
-  
-  /* Content area styling */
-  .content {
-    flex: 1;
-    padding: 20px;
-    overflow-y: auto;
+
+  :root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --card-background: #f8f9fa;
+    --button-background: #007bff;
+    --button-text: #ffffff;
   }
   
+  .dark-mode {
+    --background-color: #121212;
+    --text-color: #ffffff;
+    --card-background: #1e1e1e;
+    --button-background: #007bff;
+    --button-text: #ffffff;
+  }
+  
+  .light-mode {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --card-background: #f8f9fa;
+    --button-background: #007bff;
+    --button-text: #ffffff;
+  }
+  
+  .app-container {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    min-height: 100vh;
+  }
+
+  
+  .header {
+    background-color: var(--card-background);
+    color: var(--text-color);
+  }
+  
+  .main-content .content-card {
+    background-color: var(--card-background);
+    color: var(--text-color);
+  }
+  
+  .sidebar-card {
+    background-color: var(--card-background);
+    color: var(--text-color);
+  }
+  
+  .subheader-card {
+    background-color: var(--card-background);
+    color: var(--text-color);
+  }
+  
+  button {
+    background-color: var(--button-background);
+    color: var(--button-text);
+  }
+  
+  .accordion {
+    background-color: var(--card-background);
+    color: var(--text-color);
+  }
+  
+  .accordion-info {
+    background-color: var(--card-background);
+    color: var(--text-color);
+  }
+  
+  .subheader-image {
+    width: 240px;
+    height: 120px;
+    object-fit: contain;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  .accordion-item .accordion-header button {
+    background-color: var(--card-background);
+    color: var(--text-color);
+  }
+  .accordion-item .accordion-body {
+    background-color: var(--card-background);
+    color: var(--text-color);
+  }
+  /* Button styling */
+  button {
+    background-color: var(--button-background);
+    color: var(--button-text);
+  }

@@ -4,13 +4,12 @@ import { Card } from "react-bootstrap";
 const Content = () => {
   return (
     <Card
-      className="m-2"
+      className="content-card m-2"
       style={{
         maxWidth: "1000px",
         maxHeight: "750px",
         width: "850px",
         height: "500xpx",
-        color: "blue",
       }}
     >
       <div className="p-3">

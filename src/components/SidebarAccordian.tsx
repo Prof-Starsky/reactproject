@@ -32,11 +32,8 @@ const AccordionItem = ({ title, content }: AccordionItemProps) => {
 
 const SidebarAccordion = () => {
   return (
-    <Card
-      className="m-3"
-      style={{ maxWidth: "700px", height: "500px", color: "aqua" }}
-    >
-      <aside className="accordion bg-light p-3" id="sidebarAccordion">
+    <Card className="sidebard-card m-3">
+      <aside className="accordion p-3" id="sidebarAccordion">
         <AccordionItem
           title="We'll learn how to make Components like this"
           content="Content for Accordian 1"
@@ -46,7 +43,7 @@ const SidebarAccordion = () => {
           content="We'll also have the ability to put text inside these drop down accordian folders"
         />
         <Card>
-          <Card className="border rounded p-3">
+          <Card className="accordion-info border rounded p-3">
             Stuff needed: <br></br>
             Laptop <br></br>
             VSCode Installed <br></br>
